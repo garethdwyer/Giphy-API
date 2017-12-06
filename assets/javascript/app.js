@@ -64,13 +64,12 @@ $(".buttonSection").on("click", ".btn-secondary", function(event) {
       var state = $(this).attr("data-state");
       console.log("State-" + state + " This - " + this);
       if (state === "paused") {
-        // $(this).attr("src", $(this).attr("data-playing"))
-         $(this).attr("src", $(this).attr("data-playing"))
+        console.log("Paused-" + state + " This - " + this);
+        $(this).attr("src", $(this).attr("data-playing"))
         $(this).attr("data-state", "playing")
 
       } else {
-        console.log("Else State-" + state + " This - " + this);
-        // $(this).attr("src", $(this).data("paused"))
+        console.log("Playing-" + state + " This - " + this);
         $(this).attr("src", $(this).attr("data-paused"))
         $(this).attr("data-state", "paused")
       }
