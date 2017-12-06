@@ -1,0 +1,33 @@
+["dog", "cat", "bird", "rabbit", "hamster", "skunk", "ferret", "goldfish", "turtle", "hedge hog", "gerbil", "goat", "chicken", "pig", "cow", "horse", "eagle", "frog" ]
+
+78MKQW8dDk5dGF0NrGR1bQa0rRV79wkP
+
+["Amused", "Angry", "Blissful", "Annoyed", "Calm", "Apathetic", "Cheerful", "Bad", "Content", "Cranky", "Dreamy", "Depressed", 
+"Ecstatic", "Envious", "Energetic", "Frustrated", "Excited", "Gloomy", "Flirty", "Grumpy", "Giddy", "Guilty", "Good", "Indifferent",
+"Happy", "Irritated", "Joyful",	"Mad", "Loving", "Melancholy", "Mellow", "Pessimistic", "Optimistic", "Rejected", "Peaceful",
+"Restless", "Silly", "Sad", "Sympathetic", "Stressed", "Weird" ]
+
+["Angry", "Annoyed", "Apathetic", "Bad",  "Cranky", "Depressed", "Envious", "Frustrated", "Gloomy", "Guilty", "Irritated", 
+"Mad","Melancholy", "Mellow", "Pessimistic", "Rejected", "Silly", "Sad", "Stressed", "Weird" ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
