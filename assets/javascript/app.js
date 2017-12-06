@@ -47,7 +47,7 @@ $(".buttonSection").on("click", ".btn-secondary", function(event) {
                              .attr("src", results.data[i].images.fixed_height_still.url)
                              .attr("data-paused",results.data[i].images.fixed_height_still.url)
                              .attr("data-playing",results.data[i].images.original.url)
-                             .attr("data-state", "playing");
+                             .attr("data-state", "paused");
       var ratingDiv = $('<div>').addClass('gifRating card-block');
       var cardTitle = $('<h4>').addClass("card-title text-center")
                                .text("Rating: " + results.data[i].rating);
@@ -64,15 +64,15 @@ $(".buttonSection").on("click", ".btn-secondary", function(event) {
       var state = $(this).attr("data-state");
       console.log("State-" + state + " This - " + this);
       if (state === "paused") {
-        $(this).attr("src", $(this).data("playing"))
+        // $(this).attr("src", $(this).attr("data-playing"))
+         $(this).attr("src", $(this).attr("data-playing"))
         $(this).attr("data-state", "playing")
-
 
       } else {
         console.log("Else State-" + state + " This - " + this);
-        $(this).attr("src", $(this).data("paused"))
+        // $(this).attr("src", $(this).data("paused"))
+        $(this).attr("src", $(this).attr("data-paused"))
         $(this).attr("data-state", "paused")
-
       }
   });
 
