@@ -1,8 +1,8 @@
 $(document).ready(function(){
 //
 // Create variables
-  var moodArray = ["Angry", "Annoyed", "Apathetic", "Bad",  "Cranky", "Depressed", "Envious", "Frustrated", "Gloomy", "Guilty", "Irritated",
-"Mad","Melancholy", "Mellow", "Pessimistic", "Rejected", "Silly", "Sad", "Stressed", "Weird" ];
+  var moodArray = ["Angry", "Annoyed", "Apathetic", "Calm",  "Cranky", "Dreamy", "Envious","Flirty", "Frustrated", "Giddy","Irritated", "Joyful",
+"Mad", "Mellow",  "Peaceful", "Silly", "Sad", "Stressed", "Weird" ];
 
 var API_KEY = "78MKQW8dDk5dGF0NrGR1bQa0rRV79wkP";
 
@@ -59,6 +59,8 @@ $(".buttonSection").on("click", ".btn-secondary", function(event) {
    };
   });
 
+});
+
     // When the Gif is clicked it will move it
     $("#results").on("click", ".gif", function (){
       var state = $(this).attr("data-state");
@@ -74,9 +76,6 @@ $(".buttonSection").on("click", ".btn-secondary", function(event) {
         $(this).attr("data-state", "paused")
       }
   });
-
-});
-
 
 // When the add button is clicked a new mood is added.
   $("#addBtn").on("click",function(event){

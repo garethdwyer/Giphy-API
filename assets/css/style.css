@@ -1,8 +1,27 @@
 
-
+.jumbotron {
+  background: url(../images/moods.jpg);
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+}
+body{
+  background-color: #ffff99;
+}
+#moods{
+  float: left;
+  position: relative;
+  width: 300px;
+  height: 150px;
+}
 .buttonSection {
   margin-bottom: 20px;
 }
 .card-body{
     outline: 5px;
 }
+h1{
+    font-family: 'Merienda';
+    font-size: 34px;
+}
+

@@ -7,8 +7,13 @@
 "Happy", "Irritated", "Joyful",	"Mad", "Loving", "Melancholy", "Mellow", "Pessimistic", "Optimistic", "Rejected", "Peaceful",
 "Restless", "Silly", "Sad", "Sympathetic", "Stressed", "Weird" ]
 
-["Angry", "Annoyed", "Apathetic", "Bad",  "Cranky", "Depressed", "Envious", "Frustrated", "Gloomy", "Guilty", "Irritated", 
-"Mad","Melancholy", "Mellow", "Pessimistic", "Rejected", "Silly", "Sad", "Stressed", "Weird" ]
+["Angry", "Annoyed", "Apathetic", "Bad",  "Cranky", "Depressed", "Envious", "Frustrated", "Gloomy", "Guilty", "Irritated",
+"Mad","Melancholy", "Mellow", "Pessimistic", "Rejected", "Silly", "Sad", "Stressed", "Weird" ];
+
+["Angry", "Annoyed", "Apathetic", "Calm",  "Cranky", "Dreamy", "Envious","Flirty", "Frustrated", "Giddy","Irritated", "Joyful",	
+"Mad", "Mellow",  "Peaceful", "Silly", "Sad", "Stressed", "Weird" ]
+
+
 
 
 
