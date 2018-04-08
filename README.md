@@ -8,7 +8,7 @@ Check out the app here: https://tmederos.github.io/Giphy-API/
 
 ---
 # Screenshot
-![Screenshot](https://github.com/tmederos/burger/blob/master/public/assets/img/screen-shot.png)
+![Screenshot](https://github.com/tmederos/Giphy-API/blob/master/assets/images/screen-shot.jpg)
 
 ---
 Technologies used
